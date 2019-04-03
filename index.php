@@ -35,7 +35,7 @@ class Time
         }
     }
 }
-$rect = new Time(date("Y"), date("j"), date("H"), date("i"), date("s"));
+$rect = new Time(date('Y') , date("d"), date("H"), date("i"), date("s"));
 $rect->getTime();
 echo "<hr>";
 $rect->getRect();
